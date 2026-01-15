@@ -1,1 +1,3 @@
+# Math ✅
 
+This folder contains LeetCode problems solved using **Math-based logic**.
