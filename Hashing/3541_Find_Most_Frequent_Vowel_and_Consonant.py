@@ -1,12 +1,16 @@
-# Problem: 3541. Find Most Frequent Vowel and Consonant
-# Approach:
-# 1) Use dictionary to count frequency of each character.
-# 2) Find the max frequency among vowels (a,e,i,o,u).
-# 3) Find the max frequency among consonants.
-# 4) Return maxVowel + maxConsonant.
-#
-# Time Complexity: O(n)
-# Space Complexity: O(1)  (because only 26 lowercase letters)
+"""
+LeetCode 3541. Find Most Frequent Vowel and Consonant
+
+Approach:
+- Use a dictionary to count frequency of each character.
+- Find the maximum frequency among vowels (a, e, i, o, u).
+- Find the maximum frequency among consonants.
+- Return (max vowel frequency + max consonant frequency).
+
+Time Complexity: O(n)
+Space Complexity: O(1)   (since only lowercase English letters are possible)
+"""
+
 
 class Solution:
     def maxFreqSum(self, s: str) -> int:
